@@ -1,0 +1,199 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.btnwidth{
+    width: 80px;
+}
+.loginimg{
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    height: 667px;
+    /*-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    /* filter: grayscale(100%); */
+}
+
+.navbackground{
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.logincard{
+    width: 18rem;
+    background-color: rgba(0, 0, 35, 0.6);
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.profileimage{
+    width:50px;
+    height:50px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.cardContainer{
+    padding: 10px;
+    margin-top: 3%;
+}
+
+.styleHeader{    
+    border-bottom: none;
+    background: rgba(0, 0, 0, 0.1); /*#2ae0be*/
+    /* background: #2ae0be;
+    color: white; */
+}
+
+.divcntr{
+    top: 50%;
+    left: 50%;
+    position:absolute;
+    transform: translate(-50%, -50%);
+
+    /* set div heigh, width and border. */
+    height: 480px;
+    width: 600px;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    padding: 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.boxWidth{
+    width: 230px;
+}
+
+/*image setting.*/
+div.updateimage{
+    float: right;
+    border-radius: 100px;
+    height: 150px;
+    width: 150px;
+    border: 7px solid #FFF;
+    overflow: hidden;
+    box-shadow: rgba(0,0,0, 0.8) 15px 15px 25px;
+    position: relative;
+}
+
+div.updateimage img{
+    border-radius: 100px;
+    height: 150px;
+    width: 150px;
+}
+
+div.updateimage div{
+    /* width: 150px; */
+    height: 78px;
+    background: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    /* border-r adius: 100px; */
+    padding: 30px 0 0 0;
+    color: white;
+}
+
+/* .text{
+    text-align: center;
+    color: #FFF;
+    font-size: 9px;
+} */
+
+div.effect div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 700ms;
+    color: #Fff;
+}
+
+div.effect div:hover{
+    opacity: 0.8;
+}
+
+/*Drop down menu.*/
+.dropdawn ul{
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
+}
+
+.dropdawn > li{
+    display: block;
+    float: left;
+    position: relative;
+}
+
+ul.dropdawn li ul{
+    display: none;
+}
+
+ul.dropdawn > li:hover ul{
+    display: block;
+    position: absolute;
+    width: 160px;
+    z-index: 1;
+}
+
+ul.dropdawn ul a{
+    /* background: #43719ee8;  */
+    background: #193a5ce8; 
+    border-bottom: 1px solid white;
+    font-size: 18px;
+    color: #16e673e8;
+    display: block;
+    text-align: center;
+    padding: 12px;
+    height: 50px;
+}
+
+.dropdawn li ul li a:hover{
+    background: #4199f1e8;
+    color: #193a5ce8;
+}
+
+/*plan details card style */
+.plnfont{
+    font-size: 18px; 
+    font-weight: bold; 
+    color: #5bc0de;
+}
+
+.plncard{
+    box-shadow: 5px 5px 4px #79b6c7;
+    /* box-shadow: 5px 5px 4px gray; */
+    border-radius: 25%;
+}
+
+.table1 .table td, .table th{
+    border-top: none;
+}
+
+.imgmargin{
+    margin-left: 10%;
+}
+
+.printbtn{
+    margin-top: 15%;
+    margin-left: 10%;
+    width: 12%;
+}
+
+/*Create Subscribe*/
+.subcribelabel{
+        border: 2px solid #5bc0de;
+        padding: 7px;
+        border-radius: 20px;
+}
+
+.subcribelabel:hover{
+    /* background: #76787ae8; */
+    background: #0b1e42;
+    color:white;
+}
+
+.btnfloat{
+    float: right;
+}
